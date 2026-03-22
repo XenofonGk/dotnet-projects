@@ -1,44 +1,39 @@
-# 🚀 .NET Developer Internship Preparation
+# dotnet-projects
 
 ![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet)
 ![C#](https://img.shields.io/badge/C%23-13.0-239120?logo=csharp)
-![SQL Server](https://img.shields.io/badge/SQL_Server-2022-CC2927?logo=microsoft-sql-server)
-![Entity Framework](https://img.shields.io/badge/EF_Core-10.0-512BD4?logo=dotnet)
+![OOP](https://img.shields.io/badge/OOP-Fundamentals-blue)
 
-This repository documents my journey from learning the basics of C# to building complex ASP.NET Core MVC applications and Web APIs.
+A collection of C# console applications and web projects developed to master the fundamentals of Object-Oriented Programming and ASP.NET Core development.
 
----
+## 🚀 Projects Overview
 
-## 📅 Roadmap Overview
-
-### 🔹 [Week 1: C# Fundamentals](https://github.com/XenofonGk/dotnet-projects/tree/main/Week1)
-Focus: Object-Oriented Programming (OOP), Logic, and Console Applications.
-- **Projects:** Bank Account Simulation, Library Management, To-Do List, Student Grade Calculator.
-- **Key Skills:** Classes, Inheritance, Collections, Exception Handling.
-
-### 🔹 [Week 2: ASP.NET Core MVC & Entity Framework](https://github.com/XenofonGk/dotnet-projects/tree/main/Week%202)
-Focus: Model-View-Controller architecture and Database Integration.
-- **Projects:** 
-  - **MyProject (MVC):** A category management system with SQL Server.
-  - **TodoApi:** A RESTful API with DTO patterns and Swagger documentation.
-- **Key Skills:** EF Core Migrations, SQL Server, Razor Views, Dependency Injection.
-
----
+- **Bank Account Simulator:** A console application demonstrating encapsulation and transaction logic.
+- **To-Do List:** A task management tool utilizing collections and file I/O for persistence.
+- **Library Book Manager:** An application for managing book inventories, showcasing inheritance and polymorphism.
+- **Student Grade Report:** A tool for calculating and reporting student grades using complex data structures.
+- **MyProject (MVC):** A category management system built with ASP.NET Core MVC and SQL Server.
+- **TodoApi:** A RESTful API implementing DTO patterns and Swagger documentation.
 
 ## 🛠️ Technical Stack
-- **Language:** C# 13 / .NET 10.0
-- **Database:** Microsoft SQL Server (Docker-based)
-- **ORM:** Entity Framework Core
-- **Architecture:** MVC (Model-View-Controller)
-- **Tools:** Azure Data Studio, dotnet CLI
 
----
+- **Language:** C# 13
+- **Framework:** .NET 10.0
+- **Concepts:** Object-Oriented Programming (OOP), MVC Architecture, RESTful APIs
+- **Database:** Microsoft SQL Server, Entity Framework Core (EF Core)
+- **Tools:** Docker, dotnet CLI
 
-## ⚙️ How to Run Locally
+## ⚙️ How to Run
 
 ### Prerequisites
 - .NET 10 SDK
-- Docker (for SQL Server)
+- SQL Server (or Docker for running the database)
+
+### Running Console Applications
+Navigate to the specific project directory (e.g., `Week1/BankAccount`) and run:
+```bash
+dotnet run
+```
 
 ### Running the MVC App
 ```bash
@@ -47,11 +42,5 @@ dotnet ef database update
 dotnet run
 ```
 
-### Running the Web API
-```bash
-cd "Week 2/TodoApi"
-dotnet run
-```
-
 ---
-*Developed by Xenofon Gkountas*
+*Developed by Xenofon Gkioka*
